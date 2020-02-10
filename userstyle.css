@@ -1,0 +1,102 @@
+#outer-header {
+    min-width:100%;
+}
+
+.aplus-container .top-bar {
+    background-color:#333333;
+    color:white;
+    border:0;
+    box-shadow: 0px 5px 5px 2px rgba(0,0,0,0.4);
+}
+
+#outer-container > div > div.top-bar > ul > li > a {
+    color:white;
+}
+
+#outer-container {
+    display:flex;
+    width:100%;
+    height:100%;
+}
+
+.aplus-container {
+    width:100%;
+    margin:0;
+    position:static;
+}
+
+.left-col {
+    background-color:#444444;
+}
+
+.right-col {
+    background-color:#444444;
+}
+
+.module {
+    background-color:#444444 !important;
+    color:white;
+    border:0 !important;
+    box-shadow: 0px 5px 5px 2px rgba(0,0,0,0.4);
+}
+
+.aplus-container .module .upper_sec {
+    border:0;
+    background-color:#222222;
+}
+
+h3 {
+    color:white !important;
+}
+
+.subject-list > li {
+    background-color:#444444 !important;
+    border: none !important;
+}
+
+.arrow-container {
+    color:#af72e6 !important;
+}
+
+a > small {
+    color:white !important;
+}
+
+#search_box,
+#url-input {
+    color:#333333 !important;
+}
+
+div.my_event_body{
+    color: black !important;
+}
+
+#timetable-grid,
+#timetable-grid > div.dhx_cal_header > div,
+.dhx_cal_date,
+.dhx_cal_header,
+.dhx_scale_hour {
+    background-color: #333333 !important;
+    color: white !important;
+    border:0;
+}
+
+.dhx_scale_holder {
+    background-image: none !important;
+    border-color:black;
+}
+
+#timetable-grid > div.dhx_cal_data.dhx_resize_denied.dhx_move_denied {
+    border: 1px solid black;
+}
+
+.aplus-table {
+    width:100%;
+}
+
+.aplus-container table.aplus-table thead,
+#preferences-tpl > div.lower_sec > div:nth-child(1) > table > thead > tr > th {
+    background-color:#444444;
+    color: white;
+    border-color:black;
+}
