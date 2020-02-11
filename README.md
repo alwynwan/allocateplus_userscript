@@ -1,6 +1,6 @@
 # Allocate+ Student++
 
-#### Version 0.10 / 10/02/20
+#### Version 0.11 / 11/02/20
 
 A CSS userscript to make Allocate+ Student use the entire screen and provide an optional dark mode
 
@@ -48,6 +48,7 @@ body {
     - Fixed top bar colours
     - Themed session timeout page background
     - Released to Userstyles, made accent colour pickable
+    - Made top bar use accent colour
 - 0.10
     - Finished theming preferences table
     - Themed mobile popout menu 
