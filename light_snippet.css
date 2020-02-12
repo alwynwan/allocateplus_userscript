@@ -1,0 +1,9 @@
+body {
+    --bg-col: #FFFFFF;
+    --text-col: black;
+    --bg-dark: #f8f8f9;
+    --bg-darker: #f8f8f9;
+    --bg-light: #FFFFFF;
+    --bg-lighter: #FFFFFF;
+    --accent-col: /*[[accent-color]]*/;
+}

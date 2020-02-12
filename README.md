@@ -1,49 +1,25 @@
 # Allocate+ Student++
 
-#### Version 0.11 / 11/02/20
+#### Version 0.12 / 11/02/20
 
 A CSS userscript to make Allocate+ Student use the entire screen and provide an optional dark mode
 
 ## Usage
 
-### Without dark mode
 1. Get a userstyle extension for your browser (e.g. Stylus for Chrome)
 2. Go to [this link](https://userstyles.org/styles/180064/allocate-student-full-screen-dark-theme).
 3. Click 'Customize Settings'
-4. Set whatever accent colour you wish
-5. Click 'Install Style'
-
-### Activating dark mode
-1. Open the `userstyle.css` file in any text editor
-    - OR go to your userstyle extensions's dashboard and click edit on the style in there  
-2. Remove the `/*` and `*/` that surround the `body` block.
-```
-/*body {
-    --bg-col: #333333;
-    --text-col: white;
-    --bg-dark: #222222;
-    --bg-darker: #111111;
-    --bg-light: #444444;
-    --bg-lighter: #555555;
-    --accent-col: #af72e6;
-}
-*/
-```
-will become:
-```
-body {
-    --bg-col: #333333;
-    --text-col: white;
-    --bg-dark: #222222;
-    --bg-darker: #111111;
-    --bg-light: #444444;
-    --bg-lighter: #555555;
-    --accent-col: #af72e6;
-}
-```
-3. Save the .css file
+4. Set either light or dark mode
+5. Set whatever accent colour you wish 
+6. Click 'Install Style'
 
 ## Version History / Changelog
+- 0.12
+    - Fixed light theme colours
+    - Added theme selector to Userstyles
+    - Updated readme to no longer include manual dark mode updates
+    - Made footer colour use accent colour
+    - Added dark/light theme snippets for safekeeping
 - 0.11
     - Fixed top bar colours
     - Themed session timeout page background
