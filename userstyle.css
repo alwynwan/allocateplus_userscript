@@ -186,6 +186,10 @@
         color: var(--bg-col);
     }
     
+    .msg-box {
+        color:var(--bg-col);
+    }
+    
     .lower_sec > a {
         color: var(--accent-col) !important;
     }
